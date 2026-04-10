@@ -22,9 +22,12 @@ A GitHub-ready repo with three progressively stronger demos:
 
 This project helps you move from:
 - abstract predictive-processing ideas,
+
 - to a runnable predictive-coding toy,
+
 - to a minimal active-inference toy,
 - to a real **perception–action benchmark**.
+
 
 Core benchmark:
 
@@ -82,7 +85,7 @@ source .venv/bin/activate
 pip install -e .
 ```
 
-Or, if you prefer:
+Or, if you prefer: Test2
 
 ```bash
 pip install -r requirements.txt
