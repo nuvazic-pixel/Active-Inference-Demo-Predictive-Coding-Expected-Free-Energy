@@ -1,0 +1,42 @@
+[build-system]
+requires = ['setuptools>=68', 'wheel']
+build-backend = 'setuptools.build_meta'
+
+[project]
+name = 'pp-active-inference'
+version = '0.2.0'
+description = 'Predictive processing and active inference demos in PyTorch.'
+readme = 'README.md'
+requires-python = '>=3.10'
+license = {text = 'MIT'}
+authors = [
+  {name = 'OpenAI + User collaboration'}
+]
+dependencies = [
+  'torch',
+  'torchvision',
+  'matplotlib'
+]
+keywords = ['predictive-processing', 'active-inference', 'pytorch', 'mnist', 'predictive-coding']
+classifiers = [
+  'Programming Language :: Python :: 3',
+  'License :: OSI Approved :: MIT License',
+  'Operating System :: OS Independent',
+  'Intended Audience :: Science/Research',
+  'Topic :: Scientific/Engineering :: Artificial Intelligence'
+]
+
+[project.urls]
+Homepage = 'https://github.com/<YOUR_GH_USERNAME>/<YOUR_REPO_NAME>'
+Issues = 'https://github.com/<YOUR_GH_USERNAME>/<YOUR_REPO_NAME>/issues'
+
+[project.scripts]
+pc-linear-demo = 'pp_active_inference.cli:linear_demo'
+pc-active-demo = 'pp_active_inference.cli:active_demo'
+mnist-foveated-demo = 'pp_active_inference.cli:mnist_demo'
+
+[tool.setuptools]
+package-dir = {'' = 'src'}
+
+[tool.setuptools.packages.find]
+where = ['src']
