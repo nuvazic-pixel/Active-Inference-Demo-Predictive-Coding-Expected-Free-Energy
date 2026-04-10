@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Predictive Processing & Active Inference Demos
 
 ![Python](https://img.shields.io/badge/python-3.10%2B-blue)
@@ -259,3 +260,7 @@ If your repo is public, you can later add badges for:
 ## License
 
 MIT
+=======
+# Active-Inference-Demo-Predictive-Coding-Expected-Free-Energy
+A 2-level hierarchical predictive coding network with:  • Nonlinear generative model (tanh)  • Precision-weighted inference  • Active inference via EFE policy selection  • Saccade-like actions to reduce uncertainty  Features:  • Inner loop: Variational inference on latents  • Outer loop: Hebbian-like parameter learning 
+>>>>>>> 29804b2232ad9e373c25ee63f1ea5af0e5bd7964
