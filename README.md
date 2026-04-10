@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 # Predictive Processing & Active Inference Demos
 
+
 ![Python](https://img.shields.io/badge/python-3.10%2B-blue)
 ![PyTorch](https://img.shields.io/badge/framework-PyTorch-ee4c2c)
 ![Status](https://img.shields.io/badge/status-research--toy-yellow)
@@ -240,7 +241,7 @@ What you want to see:
 ---
 
 ## Publishing to GitHub
-
+Test1
 ### Replace placeholders in `pyproject.toml`
 Update:
 - `Homepage`
